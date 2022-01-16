@@ -1,0 +1,72 @@
+div {
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  line-height: 250%;
+}
+
+h2 {
+  color: white;
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.container {
+  margin: 0px;
+  padding: 50px;
+}
+
+#column-1 {
+  background: #E38826;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  height: 385px;
+  width: 275px;
+}
+
+#column-2 {
+  background: #006970;
+  height: 385px;
+  width: 275px;
+}
+  
+#column-3 {
+  background: #004241;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  height: 385px;
+  width: 275px;
+}
+
+footer {
+
+}
+
+/*---------- TABLET ----------*/
+/* Change the background colors below */
+@media (min-width: 768px) {
+    #column-1 {
+      background: #D2691E ;
+    }
+    #column-2 {
+      background: #2E8B57;
+    }
+    #column-3 {
+      background: #483D8B;
+    }
+  }
+   
+   
+  /*---------- Monitors ----------*/
+  @media (min-width: 1200px) {
+     #column-1 {
+      background: #A52A2A;
+    }
+    #column-2 {
+      background: #008B8B;
+    }
+    #column-3 {
+      background: #006400;
+    }
+  }
